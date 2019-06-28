@@ -1,0 +1,12 @@
+
+chrome https://code-maze.com/get-started-angular-material/
+
+ng new ng-mat-base-blue
+npm install --save @angular/material @angular/cdk @angular/animations
+npm install --save hammerjs
+ng g module material --spec false
+ng g component layout --spec false
+npm install @angular/flex-layout --save
+
+next
+chrome https://code-maze.com/angular-material-navigation/
