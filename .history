@@ -10,3 +10,4 @@ npm install @angular/flex-layout --save
 
 next
 chrome https://code-maze.com/angular-material-navigation/
+ng g component navigation/header --spec false
