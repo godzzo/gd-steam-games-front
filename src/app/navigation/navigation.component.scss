@@ -1,0 +1,29 @@
+.example-container {
+  margin: 10px;
+}
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.pic {
+  height: 40px;
+  padding-top: 10px;
+}
+
+.background{
+  height: 100vh;
+  width: 100%;
+  background: url('/assets/super_smash_bros.jpg') repeat;
+  background-size: cover;
+  /* opacity: 0.21; */
+}
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
